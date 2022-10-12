@@ -277,3 +277,11 @@ p {
   font-size: 15px;
   color: #8c8c8c;
 }
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "- ";
+}
