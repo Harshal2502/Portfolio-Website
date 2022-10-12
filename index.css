@@ -282,6 +282,6 @@ ul {
   list-style: none;
 }
 
-ul li::before {
+.temp ul li::before {
   content: "- ";
 }
