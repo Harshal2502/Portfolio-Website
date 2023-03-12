@@ -22,6 +22,11 @@ section {
   .section-heading {
     font-size: 40px !important;
   }
+
+  .pre {
+    margin-left: 0 !important;
+    display: inherit !important;
+  }
 }
 
 html {
@@ -284,4 +289,8 @@ ul {
 
 .temp ul li::before {
   content: "- ";
+}
+
+.pre {
+  margin-left: 9.5rem;
 }
